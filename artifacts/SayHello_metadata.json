@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_greeterContract",
+						"type": "address"
+					}
+				],
+				"name": "getGreet",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/OOPS/interface.sol": "SayHello"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/OOPS/interface.sol": {
+			"keccak256": "0xbd4f3d45afa970f64f93cb5686c31c142ba7c8e9abaa4110f71dea53011b66db",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c75da7ad8d34ebc71e4b89cf626bc2482e3149ab0ce978f571013ef55b7f6b4c",
+				"dweb:/ipfs/QmRQNGNVhbft1U3qZeqsNQHCohVL9G4ZaqBxRaiBwW52oV"
+			]
+		}
+	},
+	"version": 1
+}
